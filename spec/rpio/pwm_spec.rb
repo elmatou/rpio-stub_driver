@@ -1,6 +1,6 @@
 RSpec.describe Rpio::StubDriver::PWM do
 
-  subject { Rpio::StubDriver::Base.new }
+  subject { Rpio::StubDriver::Driver.new }
 
   it '#pwn_set_pin(pin)' do
     is_expected.to respond_to(:pwm_set_pin).with(1).argument

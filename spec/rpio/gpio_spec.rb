@@ -1,6 +1,6 @@
 RSpec.describe Rpio::StubDriver::Gpio do
 
-  subject { Rpio::StubDriver::Base.new }
+  subject { Rpio::StubDriver::Driver.new }
 
   it '#gpio_direction(pin, direction)' do
     is_expected.to respond_to(:gpio_direction).with(2).arguments

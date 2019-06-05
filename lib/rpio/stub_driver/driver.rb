@@ -1,6 +1,6 @@
 module Rpio
   module StubDriver
-    class Base
+    class Driver < Rpio::Driver
       def initialize
       end
 

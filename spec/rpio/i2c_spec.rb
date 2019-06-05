@@ -1,6 +1,6 @@
 RSpec.describe Rpio::StubDriver::I2C do
 
-  subject { Rpio::StubDriver::Base.new }
+  subject { Rpio::StubDriver::Driver.new }
 
   it '#i2c_begin' do
     is_expected.to respond_to(:i2c_begin).with(0).argument

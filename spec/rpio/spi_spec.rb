@@ -1,6 +1,6 @@
 RSpec.describe Rpio::StubDriver::SPI do
 
-  subject { Rpio::StubDriver::Base.new }
+  subject { Rpio::StubDriver::Driver.new }
 
   it '#spi_set_data_mode(mode)' do
     is_expected.to respond_to(:spi_set_data_mode).with(1).argument
