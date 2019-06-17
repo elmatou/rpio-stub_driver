@@ -1,6 +1,5 @@
 RSpec.describe Rpio::StubDriver::Driver do
 
-
   it 'inherits from Rpio::Driver' do
     expect(Rpio::StubDriver::Driver).to be < Rpio::Driver
   end
